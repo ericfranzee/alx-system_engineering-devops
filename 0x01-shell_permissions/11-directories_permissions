@@ -1,3 +1,2 @@
 #!/bin/bash
-for dir in $(ls -d */); do
-	    chmod 751 "$dir"
+for dir in $(ls -d */); do chmod 751 "$dir"
